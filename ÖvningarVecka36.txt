@@ -1,0 +1,58 @@
+Detta är repetition av de grundkunskaper ni fått med er från programmering 1 eller motsvarande kurs. Vi kommer endast använda oss av main för dessa övningar.
+
+1. Boolean operators.
+Du jobbar som vakt till en populär festlokal. Din chef har gett dig följande instruktioner:
+
+Alla som vill komma in måste ha giltigt ID. 
+Endast personer som är 18 eller äldre får komma in på lördagar och söndagar.
+På vardagar måste man vara 21 år eller äldre för att få komma in. 
+Lokalen får inte vara full. 
+
+Gör ett program som tar in 4 parametrar: id, dayOfTheWeek, age, isFull. 
+Programmet skall skriva till System.out om gästen får komma in eller ej.  
+
+Läs in dina värden från args[]. 
+Testa med lite olika kombinationer för att verifiera att ditt program fungerar som väntat!
+T.ex. (id = true, dayOfTheWeek = 'saturday', age = 19, isFull = false) bör returnera true då denna person får komma in!
+
+
+
+2. Loops and Arrays. 
+Du är en hundrameterslöpare. Följande är en lista av tidigare världsrekord i sekunder. 
+
+10.8 10.6 10.5 10.3 10.1 10.0 9.8 9.7 9.6
+
+Du vill ta reda på om du kan springa snabbare än tidigare världsrekordshållare, och hur många tidigare världsrekordshållare du är bättre än.
+Om du t.ex. springer på 10.2 sekunder så är du snabbare än 4 tidigare världsrekordshållare. 
+Gör ett program som tar reda på detta!
+
+Läs in ditt värde från args[]. 
+Testa med olika tider och verifiera att ditt program fungerar som väntat!
+
+
+
+3. Modolus
+Du har fått jobb som den nya fröken ur.
+Men utöver att veta vad klockan är just nu, vill de som ringer in också veta vad klockan är om X antal timmar och Y antal minuter.
+Gör ett program som tar in 2 variabler, timmar och minuter. 
+
+Skriv sedan ut vad klockan är just nu, samt vad klockan kommer att vara om det antal timmar och minuter som anges!
+Läs in dina värden från args[]. 
+Testa med olika tider och verifiera att ditt program fungerar som väntat!
+
+
+
+4. Scanner
+Skapa ett program som "kastar en tärning" (genererar ett slumpmässigt tal mellan 1 och 6). 
+Försök sedan gissa vad tärningen visar. Du har 3 försök på dig att gissa rätt!
+
+Använd dig av scanner från System.in för att göra dina gissningar. 
+
+
+
+5. Bonus uppgift: Apan Bogo
+Apan Bogo vill sortera listor med heltal. Han är tyvärr inte speciellt smart och väljer ett dåligt sätt att sortera sin lista.
+Han tänker att om han blandar en lista gång på gång så borde den till slut bli sorterad.
+
+Hjälp apan Bogo att skapa denna sorteringsmetod! Skapa ett program som tar in en slumpad lista på X antal tal. 
+Välj X i args[], testa först med lågt antal tal, runt 8-11. Testa sen att öka till 20 för att se vad som händer. (ctrl + c avbryter programmet).
