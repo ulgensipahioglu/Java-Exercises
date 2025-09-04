@@ -17,7 +17,7 @@
 
 public class Skottar {
     public static void main(String[] args) {
-        long Year = Long.parseLong(args[0]);
+        Integer Year = Integer.parseInt(args[0]);
         if (( Year % 4 == 0 && Year % 100 !=0) || (Year % 400 ==0)){
             System.out.println("This is a leap year.");
         }

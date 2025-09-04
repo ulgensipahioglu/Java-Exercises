@@ -8,11 +8,9 @@ public class festlokalen {
     if (!isFull && Id){
         if ( dayOfWeek <= 4 && age>=21){
             System.out.println("Welcome!");
-        }
-        else if ((dayOfWeek == 5 || dayOfWeek == 6) && age >= 18) {
+        } else if ((dayOfWeek == 5 || dayOfWeek == 6) && age >= 18) {
             System.out.println("Welcome!");
-        } 
-        else {
+        } else {
             System.out.println("You can not enter!");
         }
     }
