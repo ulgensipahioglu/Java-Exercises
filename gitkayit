@@ -1,0 +1,8 @@
+PS C:\Users\Ulgen\JavaProjects> git add . 
+PS C:\Users\Ulgen\JavaProjects> git commit -m "I fixed syntax"
+PS C:\Users\Ulgen\JavaProjects> git push
+
+U : Untracked (Takip Edilmeyen)
+git add giykayit.txt
+git commit -m "Kendi notlarım için yeni dosya eklendi"
+git push
